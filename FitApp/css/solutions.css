@@ -7,7 +7,6 @@
 .stats-container .stats-grid:first-child .stat-number {
     position: relative;
     padding-top: 60px;
-    display: inline-block;
 }
 
 .stats-container .stats-grid:first-child .stat-number::before{
@@ -17,3 +16,20 @@
     font-size: 30px;
 }
 
+.stats-container .stats-grid:last-child {
+    background-color: rgb(61, 57, 169)
+    ;
+}
+
+.stats-container .stats-grid:last-child .stat-number{
+    color: white;
+}
+
+.stats-container .stats-grid:last-child .stat-label{
+    color: white;
+}
+
+.stats-grid:hover {
+    background-color: rgba(0, 0, 0, 0.274);
+    margin-top: 10px;
+}
