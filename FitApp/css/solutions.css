@@ -65,7 +65,7 @@ input,select:focus {
 
 .save-btn:hover {
     box-shadow:0 2px 5px rgb(25, 13, 192);
-   background-color: rgba(25, 187, 25, 0.84);
+   background-color: rgb(1, 1, 45);
 }
 
 .progress-section {
@@ -79,3 +79,29 @@ input,select:focus {
     translate: 27% -239%;
     font-size: 10px;
 }
+
+a:hover {
+    background: rgb(1, 1, 45);
+    color: blue;
+}
+
+.quote-box{
+    position: relative;
+}
+
+.quote-box::before{
+    position: absolute;
+    content: "''";
+    translate: -170px -20px;
+    font-size: 40px;
+     color: rgba(255, 255, 255, 0.409);
+}
+
+.quote-box::after{
+    position: absolute;
+    content: "''";
+    translate: 150px -80px;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.409);
+}
+
