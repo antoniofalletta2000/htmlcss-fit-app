@@ -30,6 +30,11 @@
 }
 
 .stats-grid:hover {
-    background-color: rgba(0, 0, 0, 0.274);
+    box-shadow:0 2px 5px black;
     margin-top: 10px;
+}
+
+.workout-plan:nth-child(3) {
+    background-color: rgba(255, 187, 0, 0.511);
+    border-left: solid 6px orange;
 }
