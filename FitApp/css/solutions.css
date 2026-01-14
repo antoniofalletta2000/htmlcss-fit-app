@@ -57,3 +57,8 @@
 .exercise-item:nth-child(4)::before {
     content: "⚡";
 }
+
+input,select:focus{
+    box-shadow: 0 2px 9px blue;
+    transition-duration: 1s;
+}
