@@ -38,3 +38,13 @@
     background-color: rgba(255, 187, 0, 0.511);
     border-left: solid 6px orange;
 }
+
+.exercise-item:first-child {
+     background-color: rgba(29, 243, 25, 0.174);
+    border-left: solid 6px green;
+}
+
+.exercise-item:last-child {
+     background-color: rgba(29, 243, 25, 0.174);
+    border-left: solid 6px green;
+}
