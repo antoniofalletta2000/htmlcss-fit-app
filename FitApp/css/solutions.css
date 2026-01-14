@@ -59,7 +59,7 @@
 }
 
 input,select:focus {
-    box-shadow: 0 2px 9px blue;
+    box-shadow: 0 2px 4px blue;
     transition-duration: 1s;
 }
 
@@ -68,3 +68,14 @@ input,select:focus {
    background-color: rgba(25, 187, 25, 0.84);
 }
 
+.progress-section {
+    position: relative;
+}
+
+.progress-text {
+    position: absolute;
+    color: white;
+    text-align: right;
+    translate: 27% -239%;
+    font-size: 10px;
+}
