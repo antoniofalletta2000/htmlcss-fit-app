@@ -58,7 +58,13 @@
     content: "⚡";
 }
 
-input,select:focus{
+input,select:focus {
     box-shadow: 0 2px 9px blue;
     transition-duration: 1s;
 }
+
+.save-btn:hover {
+    box-shadow:0 2px 5px rgb(25, 13, 192);
+   background-color: rgba(25, 187, 25, 0.84);
+}
+
